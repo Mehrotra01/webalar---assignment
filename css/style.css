@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: "Poppins";
+    font-weight: 100;
+    background-color: #fff0f0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    row-gap: 80px;
+    margin-left:50px ;
+    position: relative;
+    top: 150px;
+}
+.card{
+    width: 400px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: #ffffff;
+
+    border: 5px solid #ffffff;
+}
+.card h2{
+    
+    position: relative;
+    left: 25px;
+}
+.card p{
+    color: rgba(141, 128, 128, 0.842);
+    word-spacing: 1px;
+    font-size: 15px;
+    margin-top: 15px;
+    position: relative;
+    left: 25px;
+}
+.card1{
+    background:linear-gradient(90deg, #ff194f,#42caf3);
+    color: rgb(253, 248, 242);
+    font-size: 2px;
+    border: none;
+    font-weight: 400;
+}
+.card1 h3{
+    position: relative;
+    top: 20%;
+    left: 25px;
+    width: 250px;
+    word-spacing: 2px;
+    font-size: 24px;
+}
+
+.ico{
+    background:linear-gradient(180deg, #ff194f,#42caf3);
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    top: -25px;
+    position: relative;
+    left: 30px;
+}
+.icor{
+
+    position: relative;
+    left: 10px;
+}
+.icoajs{
+    left: 11px;
+    position: relative;
+}
+i{
+    position: relative;
+    top: 10px;
+    left: 13px;
+color: antiquewhite;
+}
+.card button{
+    margin-top: 50px;
+    background-color: #ffffff;
+    border: none;
+    color: #da3c88;
+    font-size: 16px;
+    font-weight: bold;
+    left: 15px;
+position: relative;
+}
+button span{
+    font-size: 35px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
